@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PhishLens — Explainable Phishing Investigation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header class="page-header">
+      <p class="eyebrow">PHISHING INVESTIGATION TOOL</p>
+      <h1>PhishLens</h1>
+      <p class="subtitle">
+        Submit an email sample and get an evidence-based explanation of every
+        signal behind the risk score — not just a verdict.
+      </p>
+    </header>
+
+    <section class="panel">
+      <div class="panel-header">
+        <span class="panel-label">01 — Submit email</span>
+        <div class="sample-buttons">
+          <button class="sample-btn" data-sample="legitimate">Legitimate email</button>
+          <button class="sample-btn" data-sample="suspicious">Suspicious email</button>
+          <button class="sample-btn" data-sample="phishing">Phishing email</button>
+        </div>
+      </div>
+      <div class="panel-body">
+        <textarea
+          id="email-input"
+          rows="10"
+          placeholder="Paste raw email source here (headers + body), e.g.&#10;&#10;From: security@company.com&#10;Reply-To: verify@random-domain.xyz&#10;Subject: Your account will be suspended&#10;..."
+        ></textarea>
+        <div class="panel-footer">
+          <p class="hint">Paste a raw .eml source, or load a sample to see the tool work end to end.</p>
+          <button id="analyze-btn" class="analyze-btn">Analyze email</button>
+        </div>
+      </div>
+    </section>
+
+    <div id="error-box" class="error-box hidden"></div>
+
+    <div id="results" class="results hidden">
+      <section id="risk-summary" class="risk-summary"></section>
+      <section id="evidence-log" class="panel"></section>
+      <div class="grid-two">
+        <section id="sender-panel" class="panel"></section>
+        <section id="auth-panel" class="panel"></section>
+      </div>
+      <section id="url-panel" class="panel"></section>
+      <section id="recommendation" class="recommendation"></section>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

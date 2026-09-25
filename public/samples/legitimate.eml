@@ -1,0 +1,17 @@
+From: notifications@github.com
+Reply-To: notifications@github.com
+Return-Path: notifications@github.com
+Subject: [your-org/repo] Pull request #142 was merged
+Authentication-Results: mx.google.com; spf=pass smtp.mailfrom=github.com; dkim=pass header.d=github.com; dmarc=pass
+
+Hi there,
+
+Your pull request #142 "Fix parser edge case for multi-line headers" was
+merged into main by a maintainer.
+
+You can view the changes here:
+https://github.com/your-org/repo/pull/142
+
+Thanks for contributing.
+
+— The GitHub Team

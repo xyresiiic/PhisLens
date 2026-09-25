@@ -1,0 +1,16 @@
+From: it-support@college-portal.info
+Reply-To: it-support@college-portal.info
+Return-Path: bounce@college-portal.info
+Subject: Password expiry notice - action needed
+Authentication-Results: mx.google.com; spf=neutral smtp.mailfrom=college-portal.info; dkim=pass header.d=college-portal.info; dmarc=none
+
+Dear Student,
+
+Your student portal password will expire soon. Please confirm your
+account details to avoid disruption to your login access.
+
+Click here to update your details:
+https://college-portal.info/update-account
+
+Regards,
+IT Support Team

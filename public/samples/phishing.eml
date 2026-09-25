@@ -1,0 +1,18 @@
+From: security@paypal.com
+Reply-To: support@paypa1-security.xyz
+Return-Path: bounce@paypa1-security.xyz
+Subject: URGENT: Your account has been suspended - verify immediately
+Authentication-Results: mx.google.com; spf=fail smtp.mailfrom=paypa1-security.xyz; dkim=fail header.d=paypa1-security.xyz; dmarc=fail
+
+Dear Customer,
+
+Your account has been suspended due to unusual activity. You must
+verify your password and login credentials immediately or your account
+will be permanently locked.
+
+Click here to confirm your identity now:
+http://paypa1-login.xyz/verify
+
+This is your final notice. Act now to avoid account suspension.
+
+PayPal Security Team
