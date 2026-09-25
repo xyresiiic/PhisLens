@@ -65,4 +65,4 @@ phishlens/
 ---
 
 ## 🛡️ License
-ISC / Hackathon Project
+ISC / Domain Verse 1.0 Project
